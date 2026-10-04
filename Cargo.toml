@@ -1,0 +1,10 @@
+[package]
+name = "gamepad-mouse"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+enigo = {version = "0.6", features = ["wayland"]}
+gilrs = "0.11"
+ksni = { version = "0.3.6", features = ["blocking"]}
+image = { version = "0.25", default-features = false, features = ["png"] }
